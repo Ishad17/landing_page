@@ -3,7 +3,6 @@
 body{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -15,16 +14,40 @@ a{
     color: aliceblue;
 }
 
+.workplace{
+    width: 360px;
+    height: 180px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.this-web{
+
+    border: 2px solid red;
+    background-color: black;
+    display: flex;
+    padding: 50px 50px 100px 10px;
+    justify-content: center;
+}
+
+.thiss{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 
 .header{
     display: flex;
     color: aliceblue;
-    background-color: #1f2937;
     gap: 15px;
     padding:10px;
     align-items: center;
-    height: 30px;
-    
+    background-color: #1f2937;   
+    height: 40px;
 }
 
 
