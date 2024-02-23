@@ -1,0 +1,6 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    border: 2px solid red;
+}
