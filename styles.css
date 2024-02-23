@@ -9,6 +9,9 @@ body{
 
 }
 
+button a{
+    color:crimson;
+}
 a{
     text-decoration: none;
     color: aliceblue;
