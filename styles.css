@@ -1,6 +1,67 @@
+
+
 body{
     display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
+    flex-direction: column;
     border: 2px solid red;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.header{
+    display: flex;
+    color: aliceblue;
+    background-color: #1f2937;
+    gap: 15px;
+    padding:10px;
+    align-items: center;
+    height: 30px;
+    
+}
+
+
+.logo{
+    margin-left: 50px;
+    margin-right: auto;
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio by setting height to auto */      
+}
+
+.this-web{
+    flex: 1;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.random{
+    flex: 1;
+    display: flex;
+    background-color: sandybrown;
+}
+
+.quote{
+    flex: 1;
+    height: 500px;
+    display: flex;
+    background-color:thistle;
+}
+
+.call{
+    flex: 1;
+    display: flex;
+    background-color: chocolate;
+}
+
+.footer{
+    flex: 1;
+    display: flex;
+    background-color: aqua;
 }
