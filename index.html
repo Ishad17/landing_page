@@ -5,15 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link href="styles.css" rel="stylesheet">
+    <style>
+        .random{
+            display: flex;
+            padding-bottom: 10px;
+            align-items: center;
+            margin: 50px auto 100px auto;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        .random-info{
+            padding-bottom: 30px;
+            font-size: 36px;
+            font-weight: bolder;
+            color:#1f2937 ;
+        }
+
+        .random-pics{
+            display: flex;
+            gap: 50px;
+            padding: 10px;
+        }
+        .random-image{
+            /* border: 4px solid rgb(20, 75, 255); */
+            flex: 1;
+            /* border-radius: 5px; */
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            
+        }
+
+        .pic{
+            border-radius: 10px;
+            border: 5px solid rgb(15, 101, 230);
+            width: 160px;
+            height: auto;
+        }
+
+        .text{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 5px;
+            width: 250px;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
     <div class="header">
 
-        <img class="logo" src="/landing_page/logo.png" alt="company logo"/>
-        <a href="https://www.facebook.com" target="_blank">Home</a>
-        <a href="https://www.facebook.com" target="_blank">About</a>
-        <a href="https://www.facebook.com" target="_blank">Contacts</a>
+        <img class="logo" src="/images/logo.png" alt="company logo"/>
+        <a class="navigation" href="https://www.facebook.com" target="_blank">Home</a>
+        <a class="navigation" href="https://www.facebook.com" target="_blank">About</a>
+        <a class="navigation" id="contacts" href="https://www.facebook.com" target="_blank">Contacts</a>
     
     </div>
 
@@ -21,25 +70,61 @@
     <div class="this-web">
         
             <div class="intro">
-                <div class="thiss">iShaffle Tech LLC</div>
+                <div class="thiss">Welcome to iShaffle Tech</div>
 
                 <div class="thiss2">This is a testing webpage. 
-                The company is my dream starup</div>
+                    I am doing this in for The Odin Project. 
+                The company is my dream starup. </div>
             
-                <button><a href="https://forms.gle/j5UsccBEVKtdAUAAA" target="_blank"> Sign up</a></button>
+                <button style="border: 2px solid #1f2937;"><a href="https://forms.gle/j5UsccBEVKtdAUAAA" target="_blank"> Sign up</a></button>
             </div>
             
-            <img class="workplace" src="/landing_page/workplace.jpg"/>
-    
+            <div class="workplace"><img src="/images/workplace.jpg" width="360px"/>
+            </div>
             
     </div>  
-    <div class="random">ss</div>
+    <div class="random">
+        <div class="random-info">iShaffle Tech Projects</div>
+        <div class="random-pics">
+            <div class="random-image">
+                <img class="pic" src="/images/tiktac.jpg" alt=""/>
+                <div class="text">Tic Tac Toe is the 1st project we did. We worked really hard at it. It was bumper hit as a beginner project.</div>
+            </div>
+            <div class="random-image">
+                <img class="pic" src="images/5566.jpg" alt="" />
+                <div class="text">Calculator App is our 2nd project. It had all the features a scientific Calculator would have. It came out very well.</div>
+            </div>
+            <div class="random-image">
+                <img class="pic" src="/images/currency.jpg" alt=""/>
+                <div class="text">Our 3rd project is Currency Converter. It is for a private audit firm situated in Kandy, Sri Lanka.</div>
+            </div>
+            <div class="random-image">
+                <img class="pic" src="/images/quizz.jpg" alt=""/>
+                <div class="text">We made a Quiz App for school kids as our 4th project. The UI was loved by the kids and the teachers as well.</div>
+            </div>
+        </div>
+    </div>
 
-    <div class="quote">ss</div>
+    <div class="quote-by">
+        <div class="quote-author">
+        <div class="quote">
+            "As entrepreneurs in the IT realm, we drive innovation and resilience.
+             Our mission is crafting solutions exceeding current demands, propelling 
+             us toward the forefront of technological evolution. Join our journey!" </div>
+        <div class="author">- Ishad, CEO</div>
+    </div>
+        </div>
 
-    <div class="call">wwsssssssssssssssss</div>
+    <div class="call">
+        <div class="call-to">
+            <div class="action">Call to action! It's time! </div>
+            <div class="act"> Signup for our product by clicking that button right over there!</div>
+        </div>
+        <div class="button"><button class="signup"><a style="padding: 5px;" href="https://forms.gle/j5UsccBEVKtdAUAAA" target="_blank">Sign up</a></button>
+        </div>
+    </div>
 
-    <div class="footer">uu</div>
+    <div class="footer">Copyright © The Odin Project 2024</div>
     
     
 </body>
