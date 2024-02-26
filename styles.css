@@ -133,6 +133,9 @@ a {
     margin-left: 73%;
     font-size: 25px;
     font-weight: 500;    
+    width: auto;
+    min-width: 100px;
+    border: 2px solid red;
 }
 
 
