@@ -30,36 +30,71 @@ button {
     padding: 5px 40px 5px 40px;
 }
 
-a{
+a {
     font-size: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.thiss2{
-    padding-right: 30px;
-    color:#e5e7eb;
-    padding: 5px;
+.this-web{
+    justify-content: center;
+    padding: 50px 80px 80px 80px;
+    align-items: center;
+    display: flex;  
+    background-color: #1f2937;
+    
 }
 
 .intro{
+    flex-wrap: wrap ;
     display: flex;
     flex-direction: column;
-    color: #f9faf8;
-    width: 300px;   
-    height: 200px;
-    padding: 10px;
-    padding-right: 80px;
+    color: #f9faf8;    
+    width: 350px;
+    height: auto;   
+    gap: 5px;
+    padding-right: 20px;
 }
 
-/* *{
-    outline: 2px solid red;
+
+.workplace img{
+    width: 400px;
+    height: auto;
+    
+    display: flex;
+ }
+
+
+/* .workplace {
 } */
 
 
+.intro-container{
+    flex-direction: row;
+    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+}
+
 .thiss{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
+}
+
+.thiss2{
+    color:#e5e7eb;
+}
+
+
+.button1{
+    border:2px solid #1f2937;
+}
+
+.signup1{   
+    padding: 10px;
 }
 
 
@@ -69,32 +104,21 @@ a{
     color: aliceblue;
     gap: 25px;
     font-size: 20px;
-    padding:10px;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #1f2937;   
-    height: 40px;
+  
 }
 
 .logo{
-    margin-left: 50px;
     margin-right: auto;
     padding:0;
-    width: 200px; /* Set the desired width */
+    width: 180px; /* Set the desired width */
     height: auto; /* Maintain the aspect ratio by setting height to auto */      
 }
 
-.this-web{
-    justify-content: center;
-    padding: 20px 80px 80px 80px;
-    align-items: center;
-    display: flex;
-    background-color: #1f2937;
-}
-
-
-
 .quote-by{ 
-    flex-shrink: 1;
+    flex-grow: 1;
     display: flex;
     color: #1f2937;
     align-items: center;
@@ -108,16 +132,17 @@ a{
     align-self:flex-end;
     margin-left: 73%;
     font-size: 25px;
-    
     font-weight: 500;    
 }
 
 
 .quote{
-    width: 900px;
     font-size: 36px;
     font-weight: 100;
     font-style:italic;
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap:wrap;
 }
 
 .signup{
@@ -125,7 +150,20 @@ a{
     align-self: center;
     margin-bottom: 10px;
    border: 2px solid #e5e7eb;
+   background-color: rgb(55, 133, 235);
+
 }
+
+/* .call-container{
+    flex: 1;
+    color: #e5e7eb;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(17, 108, 228);
+} */
 
 .call{
     flex: 1;
@@ -135,8 +173,16 @@ a{
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 80px auto 80px auto;
-    background-color: rgb(17, 108, 228);
+    background-color: rgb(55, 133, 235);
+    flex-grow: 0;
+}
+
+.call-container{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    margin:100px 200px 100px 200px;
+    
 }
 
 .button{
@@ -154,23 +200,19 @@ a{
 
 .call-to{
     display: flex;
-    
     padding: 40px 60px 40px 100px;
     flex-direction: column;
 }
 
 .footer{
-    flex: 1;
-    justify-content: flex-end;
+    justify-content: baseline;
     display: flex;
     font-size: 20px;
-    padding: 25px;
+    padding: 20px;
+    flex-grow: 1;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     color: #e5e7eb;
     background-color: #1f2937;
 }
 
-.workplace{
-    display: flex;
-}
